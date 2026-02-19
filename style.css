@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Inter", sans-serif;
+}
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0);
+}
+.nav{
+    display: flex;
+justify-content: space-between;
+padding: 4px;
+}
+.choices_ul{
+    display: flex;
+    gap: 40px;
+}
+.choices_ul li a{
+    color: rgba(40, 40, 40, 1);
+}
+.icons_ul{
+    display: flex;
+    gap: 20px;
+}
+.all{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.ul_hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 488px;
+    color: rgba(40, 40, 40, 1);
+}
+.ikigai{
+font-weight: 600;
+font-style: Semi Bold;
+font-size: 16px;
+line-height: 26px;
+letter-spacing: 0px;
+text-align: left;
+}
+.hero_h1{
+font-weight: 600;
+font-style: Semi Bold;
+font-size: 54px;
+line-height: 62px;
+letter-spacing: -1px;
+}
+.see{
+font-weight: 600;
+font-style: Semi Bold;
+font-size: 18px;
+line-height: 32px;
+letter-spacing: -0.4px;
+color: rgba(40, 40, 40, 1);
+text-decoration: underline rgba(40, 40, 40, 1) 1px ;
+}
+.colab_ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+    padding: 23px 0px;
+}

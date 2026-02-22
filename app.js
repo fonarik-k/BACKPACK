@@ -15,7 +15,7 @@ let products=[
         name:'Atarashi Series®'
     }
 ]
-let container = document.querySelector('.cards')
+let container = document.querySelector('.cardss')
 products.forEach((product) => {
     container.insertAdjacentHTML('beforeend', `
       <div class="card">
@@ -51,7 +51,7 @@ products.forEach((product) => {
             `${days}d ${hours}h ${minutes}m ${seconds}s`;
     }
 
-    updateTimer(); // сразу показать
+    updateTimer(); 
     const interval = setInterval(updateTimer, 1000);
 
 });

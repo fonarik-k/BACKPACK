@@ -69,7 +69,7 @@ text-decoration: underline rgba(40, 40, 40, 1) 1px ;
     gap: 8px;
     padding: 23px 0px;
 }
-.cards{
+.cardss{
     display: flex;
     gap: 32px;
 }
@@ -115,4 +115,47 @@ font-size: 34px;
 line-height: 40px;
 letter-spacing: -0.4px;
 padding: 10px;
+}
+@media(max-width:376px){
+ .choices_ul{
+    display: none;
+ }
+ .nav{
+    display: flex;
+    justify-content: space-evenly;
+    width: 375px;
+ }
+ .icon-none{
+    display: none;
+ }
+ .all{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 0px 0px 24px 0px;
+ }
+ .colab_ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    padding: 40px 16px;
+ }
+ .cardss{
+display: flex;
+flex-direction: column;
+ }
+ .hero_h1{
+font-size: 28px;
+font-weight: 600;
+font-style: Semi Bold;
+line-height: 34px;
+letter-spacing: -0.6px;
+ }
+ .ikigai{
+font-weight: 600;
+font-style: Semi Bold;
+font-size: 14px;
+line-height: 22px;
+letter-spacing: 0px;
+ }
 }
